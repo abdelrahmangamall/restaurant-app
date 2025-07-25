@@ -1,16 +1,69 @@
-# restaurant_mobile_app
+# 🍽️ Restaurant Mobile App
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=Dart&logoColor=white)
 
-## Getting Started
+A complete restaurant mobile application built with Flutter and Firebase that provides food ordering functionality.
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 **Authentication System**
+  - Email/password login/signup
+  - Firebase Authentication
+  - Form validation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🍔 **Menu System**
+  - Browse food items with images
+  - Real-time updates from Firestore
+  - Detailed item descriptions
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🛒 **Shopping Cart**
+  - Add/remove items
+  - Quantity adjustment
+  - Real-time total calculation
+
+## 📸 Screenshots
+
+| Login Screen | Menu Screen | Cart Screen |
+|--------------|-------------|-------------|
+| <img src="screenshots/login.jpg" width="200"> | <img src="screenshots/menu.jpg" width="200"> | <img src="screenshots/cart.jpg" width="200"> |
+
+## 🛠 Tech Stack
+
+- **Frontend**: Flutter (Dart)
+- **Backend Services**:
+  - Firebase Authentication
+  - Cloud Firestore
+- **State Management**: Provider
+- **Additional Packages**:
+  - Cached Network Image
+  - Google Fonts
+  - Fluttertoast
+
+## 📂 Project Structure
+
+```plaintext
+lib/
+├── main.dart
+├── models/
+│   ├── menu_item.dart
+│   └── user_model.dart
+├── providers/
+│   ├── auth_provider.dart
+│   └── cart_provider.dart
+├── screens/
+│   ├── auth_screen.dart
+│   ├── cart_screen.dart
+│   ├── menu_screen.dart
+│   └── splash_screen.dart
+├── services/
+│   ├── auth_service.dart
+│   └── database_service.dart
+├── utils/
+│   ├── constants.dart
+│   └── helpers.dart
+└── widgets/
+    ├── custom_button.dart
+    ├── custom_textfield.dart
+    └── menu_item_card.dart
