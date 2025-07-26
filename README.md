@@ -23,11 +23,6 @@ A complete restaurant mobile application built with Flutter and Firebase that pr
   - Quantity adjustment
   - Real-time total calculation
 
-## 📸 Screenshots
-
-| Login Screen | Menu Screen | Cart Screen |
-|--------------|-------------|-------------|
-| <img src="screenshots/login.jpg" width="200"> | <img src="screenshots/menu.jpg" width="200"> | <img src="screenshots/cart.jpg" width="200"> |
 
 ## 🛠 Tech Stack
 
